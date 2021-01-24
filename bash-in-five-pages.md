@@ -20,25 +20,15 @@ I installed it as part of the [Git](https://git-scm.com) package from their webs
 
 For further details about configurations for GIT see Git in Five Minutes.
 
-## Commands
-
-`pwd` - print (display) the pathname of the current working directory
-`cat`
-### Help
-
-To get help use `git help <verb>` or to get help on the options for a specific command use `git config -h`. For example enter:
-
-```bash
-$ git help config
-```
-
 ## How To
 
 Display the current working directory - `pwd`
 
 List the details of a file - `cat <filename>`. `cat` can also be used to create files and concatenaye files together.
 
-Delete a file - `del <filename>`
+Rename a file - `mv <oldfilename> <newfilename>`
+
+Delete a file - `del <filename>` or `rm <filename>`
 
 Create a directory - `mkdir <directoryname>`
 
@@ -46,10 +36,11 @@ Remove an empty directory - `rmdir <directoryname>`
 
 Remove a directory with contents - `rm -rf <directoryname>`. The `-r` recursively removes all files and subdirectories. The `-f` removes the files and subdirectories without prompting for confirmation. Be careful.
 
-List files and directories, including hidden ones - `ls -la`. The `-l` gives a long listingwhich has extra information. The `-a` lists hidden files and directories.
+List files and directories, including hidden ones - `ls -la`. The `-l` gives a long listing which has extra information. The `-a` lists hidden files and directories.
+
+Move a file - `mv <sourcefile> <destinationfile>`
 
 ### References
 
-[GNU Bash website](https://www.gnu.org/software/bash/)
-
-[The manual](https://www.gnu.org/software/bash/manual)
+* [GNU Bash website](https://www.gnu.org/software/bash/)
+* [The manual](https://www.gnu.org/software/bash/manual)
