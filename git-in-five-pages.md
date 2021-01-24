@@ -1,10 +1,14 @@
-# Git in Five Pages
+---
+title: Git in Five Pages
+author: Rob Bebbington
+date: 24 February 2021
+---
 
 ## Contents
 
 ## Introduction
 
-A concise document of the main Git features and commands.
+A concise document of the main Git features and commands that I use.
 
 ### What is Git?
 
@@ -51,9 +55,13 @@ $ git help config
 
 ## How To
 
+Create a new repository in an existing directory - `git init`
+Clone a repository - `git clone <repositoryname>`
+Find the status of a repository - `git status`
+Add a new or modified file to be committed - `git add <filename>`
+Add all 
+Update a remote repository - `git push`
 ### Create Repository
-
-### Clone a Repository
 
 ### Branch and Merge
 
