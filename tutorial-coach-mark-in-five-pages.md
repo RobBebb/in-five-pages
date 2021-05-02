@@ -10,7 +10,9 @@ date: 2 May 2021
 - [How To](#how-to)
   - [Add Tutorial for a page](#add-tutorial-for-a-page)
   - [Where the tutorial is displayed](#where-the-tutorial-is-displayed)
+  - [Where the SKIP button is displayed](#where-the-skip-button-is-displayed)
 - [References](#references)
+
 ## Contents
 
 ## Introduction
@@ -170,11 +172,11 @@ A page is basically any `build` that returns a `Scaffold` widget. If you call ot
 
 The tutorial information is displayed in relation to the widget that has the global key for each target. The `align` property is used and can be set to `bottom`, `custom`, `left`, `right` or `top` using `ContentAlign` enum.
 
-* `bottom` displays the tutorial below the widget
-* `left` displays the tutorial to the left of the widget
-* `right` displays the tutorial to the right of the widget
-* `top` displays the tutorial above the widget
-* `custom` allows you to specify exactly where to display it
+- `bottom` displays the tutorial below the widget
+- `left` displays the tutorial to the left of the widget
+- `right` displays the tutorial to the right of the widget
+- `top` displays the tutorial above the widget
+- `custom` allows you to specify exactly where to display it
 
 For `custom` you also need to specify the `customPosition` property using `CustomTargetContentPosition` class. To display the tutorial information 10 pixels down from the top use:
 
@@ -183,6 +185,11 @@ For `custom` you also need to specify the `customPosition` property using `Custo
    customPosition: CustomTargetContentPosition(top: 10.00),
    ```
 
+### Where the SKIP button is displayed
+
+The SKIP button, by default is displayed on the bottom right of the screen. This can be adjusted for each help page by using the `aligSkip` parameter on the TargetFocus widget.
+
+The `alignSkip` parameter has a type of `Alignment`. See [Alignment class](https://api.flutter.dev/flutter/painting/Alignment-class.html) for details of it's use.
 ## References
 
-* [TutorialCoachMark readme](https://pub.dev/packages/tutorial_coach_mark)
+- [TutorialCoachMark readme](https://pub.dev/packages/tutorial_coach_mark)
