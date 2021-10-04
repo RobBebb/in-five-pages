@@ -4,7 +4,12 @@ author: Rob Bebbington
 date: 30 February 2021
 ---
 
-## Contents
+- [Introduction](#introduction)
+  - [What is Flutter?](#what-is-flutter)
+- [Installation](#installation)
+- [How To](#how-to)
+  - [Create a new project](#create-a-new-project)
+- [References](#references)
 
 ## Introduction
 
@@ -26,5 +31,5 @@ Go to the directory you want to create the project in and enter the command `flu
 
 ## References
 
-* [Flutter home page](https://flutter.dev/)
-* [Official Flutter documents](https://flutter.dev/docs)
+- [Flutter home page](https://flutter.dev/)
+- [Official Flutter documents](https://flutter.dev/docs)

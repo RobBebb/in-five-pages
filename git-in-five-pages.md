@@ -4,7 +4,20 @@ author: Rob Bebbington
 date: 24 February 2021
 ---
 
-## Contents
+- [Introduction](#introduction)
+  - [What is Git?](#what-is-git)
+  - [What is GitHub?](#what-is-github)
+- [Installation](#installation)
+- [Commands](#commands)
+  - [Help](#help)
+- [How To](#how-to)
+  - [Create Repository](#create-repository)
+  - [Branch and Merge](#branch-and-merge)
+  - [Stage and Commit](#stage-and-commit)
+  - [Push and Pull](#push-and-pull)
+  - [Stashes](#stashes)
+  - [Tags](#tags)
+  - [I Made a Mistake](#i-made-a-mistake)
 
 ## Introduction
 
@@ -27,9 +40,9 @@ Install from the [Git](https://git-scm.com) website.
 Once installed you need to configure your identity(name and email) and editor(Visual Studio Code in my case). This should only need to be done once. Using Git Bash, enter:
 
 ```bash
-$ git config --global user.name "Joe Soap"
-$ git config --global user.email joesoap@example.com
-$ git config --global core.editor "code --wait"
+git config --global user.name "Joe Soap"
+git config --global user.email joesoap@example.com
+git config --global core.editor "code --wait"
 ```
 
 If the core.editor doesn't work as above, it use to be:
@@ -38,7 +51,7 @@ If the core.editor doesn't work as above, it use to be:
 To check your configuration enter:
 
 ```bash
-$ git config --list --show-origin
+git config --list --show-origin
 ```
 
 The --show-origin option will display where the configuration setting was found.
@@ -50,7 +63,7 @@ The --show-origin option will display where the configuration setting was found.
 To get help use `git help <verb>` or to get help on the options for a specific command use `git config -h`. For example enter:
 
 ```bash
-$ git help config
+git help config
 ```
 
 ## How To
@@ -59,8 +72,9 @@ Create a new repository in an existing directory - `git init`
 Clone a repository - `git clone <repositoryname>`
 Find the status of a repository - `git status`
 Add a new or modified file to be committed - `git add <filename>`
-Add all 
+Add all
 Update a remote repository - `git push`
+
 ### Create Repository
 
 ### Branch and Merge

@@ -4,7 +4,16 @@ author: Rob Bebbington
 date: 30 February 2021
 ---
 
-## Contents
+- [Introduction](#introduction)
+  - [What is FlutterFire?](#what-is-flutterfire)
+- [Installation](#installation)
+  - [Dependencies](#dependencies)
+  - [Web Requirements](#web-requirements)
+- [How To](#how-to)
+  - [Initialise FlutterFire](#initialise-flutterfire)
+  - [Firebase Auth Instance](#firebase-auth-instance)
+  - [Cloud Firestore Instance](#cloud-firestore-instance)
+- [References](#references)
 
 ## Introduction
 

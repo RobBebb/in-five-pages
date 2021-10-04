@@ -4,7 +4,11 @@ author: Rob Bebbington
 date: 24 February 2021
 ---
 
-## Contents
+- [Introduction](#introduction)
+  - [What is Bash?](#what-is-bash)
+- [Installation](#installation)
+- [How To](#how-to)
+  - [References](#references)
 
 ## Introduction
 
@@ -42,5 +46,5 @@ Move a file - `mv <sourcefile> <destinationfile>`
 
 ### References
 
-* [GNU Bash website](https://www.gnu.org/software/bash/)
-* [The manual](https://www.gnu.org/software/bash/manual)
+- [GNU Bash website](https://www.gnu.org/software/bash/)
+- [The manual](https://www.gnu.org/software/bash/manual)

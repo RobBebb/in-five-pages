@@ -4,8 +4,6 @@ author: Rob Bebbington
 date: 1 October 2021
 ---
 
-## Contents- [Contents](#contents)
-- [Contents- Contents](#contents--contents)
 - [Introduction](#introduction)
   - [What is Firebase Emulator Suite?](#what-is-firebase-emulator-suite)
 - [Installation](#installation)
@@ -88,13 +86,15 @@ Once the initialisation was complete I tried to connect to the emulators:
 ```cmd
 curl localhost:4400/emulators
 ```
- and got the message curl: (7) Failed to connect to localhost port 4400: Connection refused.
+
+and got the message curl: (7) Failed to connect to localhost port 4400: Connection refused.
 
 Then from the project directory I started the emulators:
 
 ```cmd
 firebase emulators:start
 ```
+
 The ui was downloaded and the emulators were started.
 
 I then went to the browser to page `http://localhost:4000` and the emulator ui displayed.
@@ -104,6 +104,7 @@ I then went to the browser to page `http://localhost:4000` and the emulator ui d
 To connect my app to the Firebase Emulators I need to edit the main.dart file:
 
 I added statements to use the emulators:
+
 ```dart
     await FirebaseAuth.instance.useEmulator('http://localhost:9099');
     FirebaseFirestore.instance.useFirestoreEmulator('localhost', 8080);
@@ -160,4 +161,4 @@ I stopped the app, deleted it off the phone and built it again and all worked fi
 
 ## References
 
-* [Emulator Suite](https://firebase.google.com/docs/emulator-suite)
+- [Emulator Suite](https://firebase.google.com/docs/emulator-suite)
