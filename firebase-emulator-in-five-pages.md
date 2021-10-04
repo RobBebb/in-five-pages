@@ -5,6 +5,7 @@ date: 1 October 2021
 ---
 
 ## Contents- [Contents](#contents)
+- [Contents- Contents](#contents--contents)
 - [Introduction](#introduction)
   - [What is Firebase Emulator Suite?](#what-is-firebase-emulator-suite)
 - [Installation](#installation)
