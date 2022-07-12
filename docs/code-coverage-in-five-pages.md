@@ -3,11 +3,15 @@ title: Code Coverage in Five Pages
 author: Rob Bebbington
 date: 12 July 2022
 ---
-- [Introduction](#introduction)
-  - [What is Code Coverage?](#what-is-code-coverage)
-- [Installation](#installation)
-- [How To](#how-to)
-  - [References](#references)
+
+# Code Coverage in Five Pages
+
+- [Code Coverage in Five Pages](#code-coverage-in-five-pages)
+  - [Introduction](#introduction)
+    - [What is Code Coverage?](#what-is-code-coverage)
+  - [Installation](#installation)
+  - [How To](#how-to)
+    - [References](#references)
 
 ## Introduction
 
