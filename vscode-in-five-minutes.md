@@ -41,6 +41,12 @@ To show fixes press  `Ctrl + .`
 Description|Command
 ---|---
 Open Debug Console|`Shift + Ctrl + Y`
+Start Debugging|`F5`
+Go To Definition|`F12`
+Next file tab|`Ctrl + Tab`
+Open Debug Console|`Ctrl + Shift + Y`
+Open DevTools|`Ctrl + Alt + D`
+Insert Emoji|`Ctrl + I`
 
 ## References
 

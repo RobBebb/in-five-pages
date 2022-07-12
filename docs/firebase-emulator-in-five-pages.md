@@ -4,7 +4,15 @@ author: Rob Bebbington
 date: 1 October 2021
 ---
 
-- [Introduction](#introduction)
+- [Introduction](#introduction)- [Introduction](#introduction)
+  - [What is Firebase Emulator Suite?](#what-is-firebase-emulator-suite)
+- [Installation](#installation)
+- [Using Emulators in Flutter](#using-emulators-in-flutter)
+- [How To](#how-to)
+  - [Start Emulators](#start-emulators)
+  - [Look at the emulators](#look-at-the-emulators)
+  - [Stop the emulators](#stop-the-emulators)
+- [References](#references)
   - [What is Firebase Emulator Suite?](#what-is-firebase-emulator-suite)
 - [Installation](#installation)
 - [Using Emulators in Flutter](#using-emulators-in-flutter)
@@ -158,6 +166,66 @@ so I ended up with
 I stopped the app, deleted it off the phone and built it again and all worked fine.
 
 ## How To
+
+### Start Emulators
+
+From a terminal go to the project folder and enter:
+
+```cmd
+firebase emulators:start
+```
+
+If you get an error saying you running multiple instances of the emulators go to section [Stop the emulators](#stop-the-emulators) for how to fix it.
+
+### Look at the emulators
+
+In a browser go to page `http://localhost:4000` and the emulator ui is displayed.
+
+### Stop the emulators
+
+Before closing the terminal it is best to stop the emulators using `Ctrl + C`.
+
+If the emulators are not stopped before closing the terminal the next time the emulators are started the following error may appear:
+
+```cmd
+C:\projects\sea_service>firebase emulators:start
+i  emulators: Starting emulators: auth, firestore
+!  emulators: It seems that you are running multiple instances of the emulator suite for project sea-service. This may result in unexpected behavior.
+i  emulators: Shutting down emulators.
+i  hub: Stopping emulator hub
+!  firestore: Port 8080 is not open on localhost, could not start Firestore Emulator.
+!  firestore: To select a different host/port, specify that host/port in a firebase.json config file:
+      {
+        // ...
+        "emulators": {
+          "firestore": {
+            "host": "HOST",
+            "port": "PORT"
+          }
+        }
+      }
+i  emulators: Shutting down emulators.
+
+Error: Could not start Firestore Emulator, port taken.
+```
+
+In this case the emulators must be stopped before they can be started.
+First find the process the emulators are using based on the port mentioned in the error above:
+
+```cmd
+C:\projects\sea_service>netstat -ano | findstr :8080
+  TCP    127.0.0.1:8080         0.0.0.0:0              LISTENING       2668
+  TCP    127.0.0.1:8080         127.0.0.1:50486        ESTABLISHED     2668
+```
+
+The process id is the number on the far right of the output above. In this case 2668.
+
+Use the following command to kill the process:
+
+```cmd
+C:\projects\sea_service>taskkill /PID 2668 /F
+SUCCESS: The process with PID 2668 has been terminated.
+```
 
 ## References
 
