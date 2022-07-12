@@ -1,7 +1,5 @@
 # Index
 
-## In Five Pages
-
 - [Bash In five Pages](bash-in-five-pages.md)
 - [Flutter In Five Pages](flutter-in-five-pages.md)
 - [Flutterfire In Five Pages](flutterfire-in-five-pages.md)
