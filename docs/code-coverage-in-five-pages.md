@@ -34,7 +34,7 @@ It is best to add `coverage/lcov.info` to the `.gitignore` file to prevent the c
 
 To generate the code coverage data run `flutter test --coverage` in the terminal.
 
-To view the output look under testing in the primary side bar. There will be a FLUUTER COVERAGE section at the bottom.
+To view the output look under testing in the primary side bar. There will be a FLUTTER COVERAGE section at the bottom. This information is generated from the lib\coverage\lcov.data file which is generated when you run the above command.
 
 To view the coverage of a specific file, open the file and click the Watch button at the bottom of the screen and the coverage for file will be shown in the gutter. Code covered (tested) is shown in green and code not covered (not tested) is shown in red.
 
