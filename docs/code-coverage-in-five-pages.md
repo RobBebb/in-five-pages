@@ -39,3 +39,5 @@ To view the output look under testing in the primary side bar. There will be a F
 To view the coverage of a specific file, open the file and click the Watch button at the bottom of the screen and the coverage for file will be shown in the gutter. Code covered (tested) is shown in green and code not covered (not tested) is shown in red.
 
 ### References
+
+[How to Generate and Analyze a Flutter Test Coverage Report in VSCode](https://codewithandrea.com/articles/flutter-test-coverage/)
