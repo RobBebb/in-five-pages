@@ -7,8 +7,8 @@
 - [Firebase Emulator In Five Pages](firebase-emulator-in-five-pages.md)
 
 - [VS Code In Five Pages](vs-code-in-five-pages.md)
-  - [VS Code Extensions](vscode-extensions-index.md)
+  - [VS Code Extensions](extensions-vscode-index.md)
 - [Flutter In Five Pages](flutter-in-five-pages.md)
-  - [Flutter Packages](flutter-packages-index.md)
+  - [Flutter Packages](packages-flutter-index.md)
   - [Deep Linking In Five Pages](deep-linking-in-five-pages.md)
   - [Code Coverage In Five Pages](code-coverage-in-five-pages.md)

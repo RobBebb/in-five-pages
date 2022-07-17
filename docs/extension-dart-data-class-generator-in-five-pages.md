@@ -6,9 +6,10 @@ date: 18 July 2022
 
 # Dart Data Class Generator Extension in Five Pages
 
-- [Dart Extension in Five Pages](#dart-extension-in-five-pages)
+- [Dart Data Class Generator Extension in Five Pages](#dart-data-class-generator-extension-in-five-pages)
   - [Introduction](#introduction)
-  - [Installation](#installation)
+  - [How To](#how-to)
+    - [Add equality, hashCode, to String etc. to exisiting class](#add-equality-hashcode-to-string-etc-to-exisiting-class)
     - [References](#references)
 
 ## Introduction
