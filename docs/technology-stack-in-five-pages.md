@@ -33,7 +33,7 @@ A concise document of the technologies I am currently using or might use.
   - [C4 model](https://c4model.com)
 - UI Design
   - [Adobe XD](https://www.adobe.com/au/products/xd.html)
-  - [Lunacy](https://icons8.com/lunacy) - future
+  - [Lunacy](https://icons8.com/lunacy)
 - Version control
   - [Git](https://git-scm.com/)
   - [GitHub](https://github.com)
@@ -47,18 +47,18 @@ A concise document of the technologies I am currently using or might use.
   - [Flutter](https://flutter.dev)
 - Database - local
   - [Hive](https://docs.hivedb.dev)
-- Remote services - future
+- Remote services
   - [Firebase](https://firebase.google.com)
-- Database - remote - future
+- Database - remote
   - [Firebase Cloud Firestore](https://firebase.google.com/products/firestore) or [MariaDB](https://mariadb.org)
-- Authentication - future
+- Authentication
   - [Firebase Authentication](https://firebase.google.com/products/auth)
 
 ## VS Code Extensions
 
 - Better Comments (! alert, ? query, \* highlight, TODO: todos)
 - Bracket Pair Colorizer 2
-- Dart
+- [Dart](dart-extension-in-five-pages.md)
 - Dracula Official
 - Error Lens
 - Flutter
