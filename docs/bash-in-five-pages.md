@@ -4,11 +4,14 @@ author: Rob Bebbington
 date: 24 February 2021
 ---
 
-- [Introduction](#introduction)
-  - [What is Bash?](#what-is-bash)
-- [Installation](#installation)
-- [How To](#how-to)
-  - [References](#references)
+# Bash in Five Pages
+
+- [Bash in Five Pages](#bash-in-five-pages)
+  - [Introduction](#introduction)
+    - [What is Bash?](#what-is-bash)
+  - [Installation](#installation)
+  - [How To](#how-to)
+    - [References](#references)
 
 ## Introduction
 

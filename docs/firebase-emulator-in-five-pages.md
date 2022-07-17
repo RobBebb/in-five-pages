@@ -4,6 +4,8 @@ author: Rob Bebbington
 date: 1 October 2021
 ---
 
+# Firebase Emulator Suite in Five Pages
+
 - [Introduction](#introduction)- [Introduction](#introduction)
   - [What is Firebase Emulator Suite?](#what-is-firebase-emulator-suite)
 - [Installation](#installation)

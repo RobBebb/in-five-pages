@@ -4,12 +4,15 @@ author: Rob Bebbington
 date: 22 October 2021
 ---
 
-- [Introduction](#introduction)
-  - [What is Deep Linking?](#what-is-deep-linking)
-- [Installation](#installation)
-- [How To](#how-to)
-  - [Link to the home page](#link-to-the-home-page)
-- [References](#references)
+# Deep Linking in Five Pages
+
+- [Deep Linking in Five Pages](#deep-linking-in-five-pages)
+  - [Introduction](#introduction)
+    - [What is Deep Linking?](#what-is-deep-linking)
+  - [Installation](#installation)
+  - [How To](#how-to)
+    - [Link to the home page](#link-to-the-home-page)
+  - [References](#references)
 
 ## Introduction
 
