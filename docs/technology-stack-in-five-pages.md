@@ -11,7 +11,7 @@ date: 24 February 2021
   - [Products](#products)
   - [VS Code Extensions](#vs-code-extensions)
     - [VS Code Settings](#vs-code-settings)
-    - [Packages](#packages)
+  - [Flutter Packages](#flutter-packages)
     - [Development Packages](#development-packages)
     - [Possible Future Packages](#possible-future-packages)
 
@@ -82,7 +82,7 @@ A concise document of the technologies I am currently using or might use.
 
 - debug.toolBarLocation - set to docked so it doesn't float in the way of file name
 
-### Packages
+## Flutter Packages
 
 - hive - key-value database for user data
 - hive_flutter - Flutter extension for Hive to make it easier to use
