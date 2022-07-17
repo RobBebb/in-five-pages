@@ -28,7 +28,7 @@ A concise document of the technologies I am currently using or might use.
 - Drawings
   - [draw.io](https://draw.io)
   - Diagrams saved to dropbox
-- Architectural diagrams (if I need them)
+- Architectural diagrams
   - The C4 model for visualising software architecture
   - [C4 model](https://c4model.com)
 - UI Design
@@ -47,32 +47,41 @@ A concise document of the technologies I am currently using or might use.
   - [Flutter](https://flutter.dev)
 - Database - local
   - [Hive](https://docs.hivedb.dev)
-- Remote services
-  - [Firebase](https://firebase.google.com)
 - Database - remote
   - [Firebase Cloud Firestore](https://firebase.google.com/products/firestore) or [MariaDB](https://mariadb.org)
+- Remote services
+  - [Firebase](https://firebase.google.com)
 - Authentication
   - [Firebase Authentication](https://firebase.google.com/products/auth)
 
 ## VS Code Extensions
 
 - Better Comments (! alert, ? query, \* highlight, TODO: todos)
-- Bracket Pair Colorizer 2
+- Coverage Gutters
 - [Dart](dart-extension-in-five-pages.md)
+- Dart Data Class Generator
 - Dracula Official
 - Error Lens
 - Flutter
   - In the settings, enable the Dart:Preview Flutter Ui Guides option. That will make it really easy to spot the parent-child relationships in your code
+- Flutter Coverage
 - Flutter Intl
+- Flutter Riverpod Snippets
+- Git Graph
+- Git History
 - GitHub Pull Requests and Issues
 - GitLens - Git supercharged
+- Hex Editor
 - Image preview
 - indent-rainbow
+- jshint
+- LCOV.info language support
 - Markdown All in One
+- Markdown yaml Preamble
 - Markdownlint
 - Markdown yaml Preamble
 - Material Icon Theme
-- Pubspec Assist
+- Prettify JSON
 - Todo Tree
 - vscode-pandoc
 - vscode-pdf
