@@ -14,6 +14,7 @@ date: 17 July 2022
     - [Selecting and copying/moving rows](#selecting-and-copyingmoving-rows)
     - [Start vscode from the command line](#start-vscode-from-the-command-line)
     - [Show fixes](#show-fixes)
+    - [Set up test file structure](#set-up-test-file-structure)
   - [Extensions](#extensions)
   - [Shortcuts](#shortcuts)
     - [References](#references)
@@ -48,6 +49,10 @@ Within the command prompr or Bash c hange to the directory that you would like v
 
 To show fixes press  `Ctrl + .`
 
+### Set up test file structure
+
+Right click on the file to be tested and select `Go To Tests`. This will create the folder structure under tests to match the lib structure and create the test file.
+
 ## Extensions
 
 ## Shortcuts
@@ -55,25 +60,20 @@ To show fixes press  `Ctrl + .`
 Keys|Description
 -|-
 Quick open, Go to file...|`Ctrl + P`
-Show command paletteCtrl + Shift + POpen Debug Console|`Shift + Ctrl + Y`
+Show command palette|`Ctrl + Shift + P`
+Open Debug Console|`Ctrl + Shift + Y`
 Start Debugging|`F5`
 Go To Definition|`F12`
 Next file tab|`Ctrl + Tab`
-Open Debug Console|`Ctrl + Shift + Y`
 Open DevTools|`Ctrl + Alt + D`
 Insert Emoji|`Ctrl + I`
 Select text|`Shift + ↓ or ↑ or → or ←`
-Select current word|`Alt + D`
-Select current line|`Alt + L`
+Select current word|`Ctrl + D`
+Select current line|`Ctrl + L`
 Move selected text or current line up or down|`Alt + ↑ or ↓`
 Copy selected text or current line up or down|`Shift + Alt + ↑ or ↓`
-Open Debug Console|`Shift + Ctrl + Y`
-Start Debugging|`F5`
-Go To Definition|`F12`
-Next file tab|`Ctrl + Tab`
-Open Debug Console|`Ctrl + Shift + Y`
-Open DevTools|`Ctrl + Alt + D`
-Insert Emoji|`Ctrl + I`
+Open Explorer|`Ctrl + Shift + E`
+Open File to the Side|`Ctrl + Enter`
 
 ### References
 
