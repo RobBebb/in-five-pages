@@ -11,6 +11,7 @@
 - fl_chart - charting package
 - intl_utils - generates intl code
 - email_validator - validate email addresses
+- [Flutterfire In Five Pages](flutterfire-in-five-pages.md)
 - [Tutorial Coach Mark](tutorial-coach-mark-in-five-pages.md)
 
 ## Development Packages
