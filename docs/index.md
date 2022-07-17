@@ -7,8 +7,6 @@
   - [Code Coverage In Five Pages](code-coverage-in-five-pages.md)
 - [Firebase Emulator In Five Pages](firebase-emulator-in-five-pages.md)
 - [VS Code In Five Pages](vs-code-in-five-pages.md)
-  - VS Code Extensions
-    - [Dart](dart-extension-in-five-pages.md)
-    - Flutter
+  - [VS Code Extensions](vscode-extensions-index.md)
 - [Windows Keyboard Shortcuts In Five Pages](windows-keyboard-shortcuts-in-five-pages.md)
   
