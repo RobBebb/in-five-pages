@@ -3,17 +3,18 @@ title: Tutorial Coach Mark in Five Pages
 author: Rob Bebbington
 date: 2 May 2021
 ---
-- [Contents](#contents)
-- [Introduction](#introduction)
-  - [What is Tutorial Coach Mark?](#what-is-tutorial-coach-mark)
-- [Installation](#installation)
-- [How To](#how-to)
-  - [Add Tutorial for a page](#add-tutorial-for-a-page)
-  - [Where the tutorial is displayed](#where-the-tutorial-is-displayed)
-  - [Where the SKIP button is displayed](#where-the-skip-button-is-displayed)
-- [References](#references)
 
-## Contents
+# Tutorial Coach Mark in Five Pages
+
+- [Tutorial Coach Mark in Five Pages](#tutorial-coach-mark-in-five-pages)
+  - [Introduction](#introduction)
+    - [What is Tutorial Coach Mark?](#what-is-tutorial-coach-mark)
+  - [Installation](#installation)
+  - [How To](#how-to)
+    - [Add Tutorial for a page](#add-tutorial-for-a-page)
+    - [Where the tutorial is displayed](#where-the-tutorial-is-displayed)
+    - [Where the SKIP button is displayed](#where-the-skip-button-is-displayed)
+  - [References](#references)
 
 ## Introduction
 

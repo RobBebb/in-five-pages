@@ -4,6 +4,8 @@ author: Rob Bebbington
 date: 24 February 2021
 ---
 
+# Git in Five Pages
+
 - [Introduction](#introduction)
   - [What is Git?](#what-is-git)
   - [What is GitHub?](#what-is-github)

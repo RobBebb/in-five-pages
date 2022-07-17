@@ -4,7 +4,16 @@ author: Rob Bebbington
 date: 24 February 2021
 ---
 
-## Contents
+# Technology Stack in Five Pages
+
+- [Technology Stack in Five Pages](#technology-stack-in-five-pages)
+  - [Introduction](#introduction)
+  - [Products](#products)
+  - [VS Code Extensions](#vs-code-extensions)
+    - [VS Code Settings](#vs-code-settings)
+    - [Packages](#packages)
+    - [Development Packages](#development-packages)
+    - [Possible Future Packages](#possible-future-packages)
 
 ## Introduction
 

@@ -6,13 +6,17 @@ date: 17 July 2022
 
 # VS Code in Five Pages
 
-- [Code Coverage in Five Pages](#code-coverage-in-five-pages)
+- [VS Code in Five Pages](#vs-code-in-five-pages)
   - [Introduction](#introduction)
-    - [What is Code Coverage?](#what-is-code-coverage)
+  - [What is VS Code?](#what-is-vs-code)
   - [Installation](#installation)
+  - [How To](#how-to)
+    - [Selecting and copying/moving rows](#selecting-and-copyingmoving-rows)
+    - [Start vscode from the command line](#start-vscode-from-the-command-line)
+    - [Show fixes](#show-fixes)
   - [Extensions](#extensions)
-  - [Commands](#commands)
-    - [References](#references)## Introduction
+  - [Shortcuts](#shortcuts)
+    - [References](#references)
 
 ## Introduction
 
@@ -20,22 +24,58 @@ A concise document of installing, extensions and commands for using VS Code in W
 
 ## What is VS Code?
 
-VS Code is a editor with features of an integrated development environment.
+Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.
 
 ## Installation
 
+Refer to the [Setting Up Visual Studio Code webpage](https://code.visualstudio.com/docs/setup/setup-overview).
+
+## How To
+
+### Selecting and copying/moving rows
+
+To select multiple rows go to the start of the first row, hold down Shift key and use the down arrow key to select as many lines as you like.
+
+To copy the selected rows hold down the Shift key and the Alt key and use the down arrow key.
+
+To move the selected lines hold down the Aly key and use the up and down arrows.
+
+### Start vscode from the command line
+
+Within the command prompr or Bash c hange to the directory that you would like vscode to start with and then type `code .`
+
+### Show fixes
+
+To show fixes press  `Ctrl + .`
+
 ## Extensions
 
-## Commands
+## Shortcuts
 
 Keys|Description
 -|-
-Shift + ↓ or ↑ or → or ←|Select text
-Alt + D|Select current word
-Alt + L|Select current line
-Alt + ↑ or ↓|Move selected text or current line up or down
-Shift + Alt + ↑ or ↓|Copy selected text or current line up or down
-Ctrl + P|Quick open, Go to file...
-Ctrl + Shift + P|Show command palette
+Quick open, Go to file...|`Ctrl + P`
+Show command paletteCtrl + Shift + POpen Debug Console|`Shift + Ctrl + Y`
+Start Debugging|`F5`
+Go To Definition|`F12`
+Next file tab|`Ctrl + Tab`
+Open Debug Console|`Ctrl + Shift + Y`
+Open DevTools|`Ctrl + Alt + D`
+Insert Emoji|`Ctrl + I`
+Select text|`Shift + ↓ or ↑ or → or ←`
+Select current word|`Alt + D`
+Select current line|`Alt + L`
+Move selected text or current line up or down|`Alt + ↑ or ↓`
+Copy selected text or current line up or down|`Shift + Alt + ↑ or ↓`
+Open Debug Console|`Shift + Ctrl + Y`
+Start Debugging|`F5`
+Go To Definition|`F12`
+Next file tab|`Ctrl + Tab`
+Open Debug Console|`Ctrl + Shift + Y`
+Open DevTools|`Ctrl + Alt + D`
+Insert Emoji|`Ctrl + I`
 
 ### References
+
+- [Visual Studio Code home page](https://code.visualstudio.com/)
+- [Official Visual Studio Code documents](https://code.visualstudio.com/docs)
