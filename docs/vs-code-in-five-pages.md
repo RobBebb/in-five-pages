@@ -35,5 +35,7 @@ Alt + D|Select current word
 Alt + L|Select current line
 Alt + ↑ or ↓|Move selected text or current line up or down
 Shift + Alt + ↑ or ↓|Copy selected text or current line up or down
+Ctrl + P|Quick open, Go to file...
+Ctrl + Shift + P|Show command palette
 
 ### References
