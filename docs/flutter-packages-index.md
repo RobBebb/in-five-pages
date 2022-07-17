@@ -11,6 +11,7 @@
 - fl_chart - charting package
 - intl_utils - generates intl code
 - email_validator - validate email addresses
+- [Tutorial Coach Mark](tutorial-coach-mark-in-five-pages.md)
 
 ## Development Packages
 
@@ -18,6 +19,8 @@
 - test - Write and run dart unit tests
 - build_runner - Used to run hive generator
 - flutter_driver - Used to run function tests
+- flutter_coverage
+- coverage gutters
 
 ## Possible Future Packages
 
