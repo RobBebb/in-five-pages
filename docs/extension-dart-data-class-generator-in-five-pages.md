@@ -20,7 +20,7 @@ A concise document of the Dart Data Class Generator extension for VS Code.
 
 ### Add equality, hashCode, to String etc. to exisiting class
 
-Select one of the existing field definitions and bring up the quick fix options (Ctrl + .). Select the option required from the quick fix menu and it will be added to the class.
+Select one of the existing field definitions and bring up the quick fix options `Ctrl + .` then select the option required from the quick fix menu and it will be added to the class.
 
 ### References
 

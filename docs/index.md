@@ -4,6 +4,8 @@
 - [Bash In five Pages](bash-in-five-pages.md)
 - [Git In Five Pages](git-in-five-pages.md)
 - [Windows Keyboard Shortcuts In Five Pages](windows-keyboard-shortcuts-in-five-pages.md)
+- [Windows Command Line In Five Minutes](windows-command-line-in-five-minutes.md)
+- [Dart Command Line Apps In Five Minutes](dart-command-line-apps-in-five-minutes.md)
 - [Firebase Emulator In Five Pages](firebase-emulator-in-five-pages.md)
 
 - [VS Code In Five Pages](vs-code-in-five-pages.md)

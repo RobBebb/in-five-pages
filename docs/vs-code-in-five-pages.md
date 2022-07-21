@@ -60,7 +60,7 @@ Right click on the file to be tested and select `Go To Tests`. This will create 
 Keys|Description
 -|-
 Quick open, Go to file...|`Ctrl + P`
-Show command palette|`Ctrl + Shift + P`
+Show command palette|`Ctrl + Shift + P` or `F1`
 Open Debug Console|`Ctrl + Shift + Y`
 Start Debugging|`F5`
 Go To Definition|`F12`
@@ -74,6 +74,17 @@ Move selected text or current line up or down|`Alt + ↑ or ↓`
 Copy selected text or current line up or down|`Shift + Alt + ↑ or ↓`
 Open Explorer|`Ctrl + Shift + E`
 Open File to the Side|`Ctrl + Enter`
+Go to Editor Group number|`Ctrl + number` (numbers above letters, not number pad)
+Next Editor and/or tab|`Ctrl + Page Down`
+Previous Editor and/or tab|`Ctrl + Page Up`
+Next tab in Editor|`Ctrl + Tab`
+Multiple cursors|`Ctrl + Click`
+Show a summary of object|`Hover` over object
+Hyperlink to object|`Alt + Hover` over object
+Show code actions available|`Ctrl + .`
+Go to terminal|Ctrl + `
+Go to Explorer|`Ctrl + Shift + E`
+Go to Extensions|`Ctrl + Shift + X`
 
 ### References
 
